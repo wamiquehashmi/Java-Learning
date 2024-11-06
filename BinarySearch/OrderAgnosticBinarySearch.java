@@ -8,7 +8,7 @@ public class OrderAgnosticBinarySearch {
         System.out.println(orderAgnosticBinarySearch(arrDec, n));
     }
 
-    // binary search irrespective of the sorting type
+    // binary search irrespective of the sorting order
     static int orderAgnosticBinarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
