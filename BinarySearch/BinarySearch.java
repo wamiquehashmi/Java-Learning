@@ -6,7 +6,7 @@ public class BinarySearch {
         System.out.println(binarySearch(arr, n));
     }
 
-    // returns the target index
+    // returns the target index with time complexity of O(log n)
     static int binarySearch(int[] arr, int target) {
         int start =0;
         int end = arr.length-1;
