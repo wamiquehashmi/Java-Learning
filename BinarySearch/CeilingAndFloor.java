@@ -10,7 +10,7 @@ public class CeilingAndFloor {
         System.out.println(floor(arrDec, n));
     }
 
-    // Will return the greaterThan or equal to the target value index
+    // return the index of smallest no. >= target
     static int ceiling(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
@@ -38,7 +38,7 @@ public class CeilingAndFloor {
                                              //                       ^     ^       ^
     }                                        //                     floor         ceiling
 
-    // Will return the smallerThan or equal to the target value index
+    // return the index of greatest no. <= target
     static int floor(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
