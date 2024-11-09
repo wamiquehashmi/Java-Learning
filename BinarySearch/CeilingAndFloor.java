@@ -1,7 +1,6 @@
 public class CeilingAndFloor {
 
     public static void main(String[] args) {
-        int[][] accounts = {{2,8,7},{7,1,3},{1,9,5}};
         int[] arrAsc = {-12, -8, -5, 3, 6, 8, 9, 12, 23, 56, 66};
         int[] arrDec = {66, 56, 23, 12, 9, 8, 6, 3, -5, -8, -12};
         int n = 22;
