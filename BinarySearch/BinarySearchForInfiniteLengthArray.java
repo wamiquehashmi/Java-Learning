@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class BinarySearchForInfiniteLengthArray {
 
     public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class BinarySearchForInfiniteLengthArray {
     static int binarySearchForInfiniteLength(int[] arr, int target) {
         int start = 0;
         int end = 1;
-        while(target>arr[end]) {
+        while(target>arr[end]) {                                             // instead of using array.length
             int newStart = end + 1;                                          // exponentially increasing the block size
             end = end + (end - start + 1) * 2;                               // updating start and end for next block which will be double the size of previous
             start = newStart;
